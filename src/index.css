@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* FIP design system (ported verbatim from the Claude Design handoff) */
+@import "./styles/tokens.css";
+@import "./styles/shell.css";
+@import "./styles/surfaces.css";
+@import "./styles/roles.css";
+@import "./styles/app.css";
+
+/* ── shadcn/ui token layer ───────────────────────────────────────────────
+   Available for future FIP modules built with shadcn components. The Role &
+   Permission module renders with the bespoke design system above; these
+   variables don't affect it. */
+:root {
+  --radius: 0.625rem;
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --popover: #ffffff;
+  --popover-foreground: #0a0a0a;
+  --primary: #0a0a0a;
+  --primary-foreground: #ffffff;
+  --secondary: #f7f7f8;
+  --secondary-foreground: #0a0a0a;
+  --muted: #f7f7f8;
+  --muted-foreground: #737376;
+  --accent: #f7f7f8;
+  --accent-foreground: #0a0a0a;
+  --destructive: #b91c1c;
+  --border: #e5e5e6;
+  --input: #e5e5e6;
+  --ring: #0a0a0a;
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
