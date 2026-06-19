@@ -6,6 +6,7 @@
 @import "./styles/shell.css";
 @import "./styles/surfaces.css";
 @import "./styles/roles.css";
+@import "./styles/payment.css";
 @import "./styles/app.css";
 
 /* ── shadcn/ui token layer ───────────────────────────────────────────────
