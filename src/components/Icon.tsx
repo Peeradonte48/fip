@@ -108,6 +108,26 @@ export function Icon({
     dot: <><circle cx="12" cy="12" r="3.5" fill="currentColor" stroke="none" /></>,
     userPlus: <><circle cx="9" cy="8" r="3.2" /><path d="M3.5 20a5.5 5.5 0 0 1 11 0" /><path d="M18 8v6M15 11h6" /></>,
     rocket2: <><path d="M14 4c5 0 8 3 8 8-2 0-4 1-5 3 0 0-1 2-3 3l-3-3-3-3c1-2 3-3 3-3 2-1 3-3 3-5Z" /><path d="m6 18-2 2M9 18l-2 3M4 15l-2 2" /></>,
+
+    // ── Payment Method Configuration glyphs ──────────────────────────────
+    coins: <><ellipse cx="9" cy="7" rx="6" ry="3" /><path d="M3 7v5c0 1.7 2.7 3 6 3s6-1.3 6-3V7" /><path d="M15 12.5c2.5-.3 6-1.4 6-3.5M15 17c3.3 0 6-1.3 6-3v-3" /><path d="M3 12v3c0 1.7 2.7 3 6 3" /></>,
+    qr: <><rect x="3" y="3" width="7" height="7" rx="1" /><rect x="14" y="3" width="7" height="7" rx="1" /><rect x="3" y="14" width="7" height="7" rx="1" /><path d="M14 14h3v3M20 14v.01M14 20h.01M20 20v.01M20 17v.01M17 20v.01" /></>,
+    card: <><rect x="2" y="5" width="20" height="14" rx="2" /><path d="M2 10h20M6 15h4" /></>,
+    cash: <><rect x="2" y="6" width="20" height="12" rx="2" /><circle cx="12" cy="12" r="2.5" /><path d="M6 9.5v.01M18 14.5v.01" /></>,
+    wallet: <><path d="M3 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2" /><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M16 13h.01" /><path d="M21 11h-4a2 2 0 0 0 0 4h4" /></>,
+    ticket: <><path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-6Z" /><path d="M12 5v14" strokeDasharray="2 3" /></>,
+    ledger: <><path d="M5 4h12a2 2 0 0 1 2 2v14H7a2 2 0 0 1-2-2Z" /><path d="M5 4a2 2 0 0 0-2 2v0a2 2 0 0 0 2 2M9 9h6M9 13h6" /></>,
+    terminal: <><rect x="6" y="2" width="12" height="20" rx="2" /><path d="M6 7h12M9 17h6" /><rect x="9" y="10" width="6" height="3.5" rx="0.6" /></>,
+    bolt: <><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z" /></>,
+    plug: <><path d="M12 22v-5M9 2v5M15 2v5M7 7h10v3a5 5 0 0 1-10 0Z" /></>,
+    wifi: <><path d="M2 8.8a16 16 0 0 1 20 0M5 12.3a11 11 0 0 1 14 0M8.5 15.8a6 6 0 0 1 7 0M12 19.5h.01" /></>,
+    bluetooth: <><path d="m7 7 10 10-5 4V3l5 4L7 17" /></>,
+    cloud: <><path d="M7 18a4 4 0 0 1-.5-7.97A5.5 5.5 0 0 1 17 9.5a3.5 3.5 0 0 1 .5 8.5Z" /></>,
+    lan: <><rect x="9" y="3" width="6" height="5" rx="1" /><rect x="3" y="16" width="6" height="5" rx="1" /><rect x="15" y="16" width="6" height="5" rx="1" /><path d="M12 8v4M6 16v-2h12v2" /></>,
+    rotate: <><path d="M21 12a9 9 0 1 1-3-6.7" /><path d="M21 4v4h-4" /></>,
+    play: <><path d="M7 5v14l11-7Z" /></>,
+    eyeOff: <><path d="M3 3l18 18M10.6 5.2A9.7 9.7 0 0 1 12 5c6.5 0 10 7 10 7a16 16 0 0 1-3.1 3.9M6.6 6.6A16 16 0 0 0 2 12s3.5 7 10 7a9.6 9.6 0 0 0 3.6-.7M9.9 9.9a3 3 0 0 0 4.2 4.2" /></>,
+    dine: <><path d="M5 3v8a3 3 0 0 0 6 0V3M8 3v18M16 3c-1.5 1-2 3-2 5s.5 4 2 5v8" /></>,
   }
   return <svg {...common}>{paths[name] || null}</svg>
 }

@@ -30,3 +30,7 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*.local
+
+# Claude Code local settings (personal)
+.claude/settings.local.json
+.gstack/
